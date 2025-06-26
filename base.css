@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(42, 129, 129);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(61, 90, 90);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(138, 138, 138);
+    min-height: 300px;
+    padding: 20px;
+    font-family: garamond;
+}
+.footer {
+    background-color: rgb(147, 196, 14);
+    min-height: 150px;
+}
+f {
+   font-family:garamond;
+
+
+}
+
+a {
+  font-family: garamond;
+  
+}
+
+a:link {
+  color: white;
+
+}
+
+a:visited {
+  color: rgb(155, 152, 152);
+
+}
+
+a:hover {
+  color:rgb(22, 28, 70);
+
+}
+
+a:active {
+  color: turquoise;
+
+}
+
+.tt {
+  color: white;
+  background-color: darkcyan;
+}
+
+input {
+display: flex;
+
+}
+
+
+textarea {
+display: flex;
+
+}
+
